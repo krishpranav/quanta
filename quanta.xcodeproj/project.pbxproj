@@ -16,6 +16,7 @@
 		B12CFFD92AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFD82AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift */; };
 		B12CFFEA2AFB9B51004DB8FF /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFE92AFB9B51004DB8FF /* WebViewModel.swift */; };
 		B1B7EC572AFB9C2E000100BB /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1B7EC552AFB9C2E000100BB /* Main.xcdatamodeld */; };
+		B1B7EC592AFB9CCA000100BB /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B7EC582AFB9CCA000100BB /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B12CFFD82AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B12CFFE92AFB9B51004DB8FF /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 		B1B7EC562AFB9C2E000100BB /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		B1B7EC582AFB9CCA000100BB /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				B1B7EC552AFB9C2E000100BB /* Main.xcdatamodeld */,
 				B12CFFE92AFB9B51004DB8FF /* WebViewModel.swift */,
+				B1B7EC582AFB9CCA000100BB /* PersistenceController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				B12CFFBC2AFB9AD2004DB8FF /* quantaApp.swift in Sources */,
 				B12CFFEA2AFB9B51004DB8FF /* WebViewModel.swift in Sources */,
 				B1B7EC572AFB9C2E000100BB /* Main.xcdatamodeld in Sources */,
+				B1B7EC592AFB9CCA000100BB /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
