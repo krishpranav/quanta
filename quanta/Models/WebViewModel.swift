@@ -12,6 +12,7 @@ class WebViewModel: ObservableObject {
     var webViewNavigationPublisher = PassthroughSubject<WebViewNavigation, Never>()
     var showWebTile: String = "Google"
     var showLoader = PassthroughSubject<Bool, Never>()
+    @Published var url: String = "https://google.com"
 }
 
 ////  WebViewNavigation:
