@@ -14,6 +14,7 @@
 		B12CFFCD2AFB9AD3004DB8FF /* quantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFCC2AFB9AD3004DB8FF /* quantaTests.swift */; };
 		B12CFFD72AFB9AD3004DB8FF /* quantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFD62AFB9AD3004DB8FF /* quantaUITests.swift */; };
 		B12CFFD92AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFD82AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift */; };
+		B12CFFE82AFB9AE2004DB8FF /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B12CFFE62AFB9AE2004DB8FF /* Main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B12CFFD22AFB9AD3004DB8FF /* quantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12CFFD62AFB9AD3004DB8FF /* quantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quantaUITests.swift; sourceTree = "<group>"; };
 		B12CFFD82AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B12CFFE72AFB9AE2004DB8FF /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		B12CFFBA2AFB9AD2004DB8FF /* quanta */ = {
 			isa = PBXGroup;
 			children = (
+				B12CFFE52AFB9AD8004DB8FF /* Models */,
 				B12CFFBB2AFB9AD2004DB8FF /* quantaApp.swift */,
 				B12CFFBD2AFB9AD2004DB8FF /* ContentView.swift */,
 				B12CFFBF2AFB9AD3004DB8FF /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				B12CFFD82AFB9AD3004DB8FF /* quantaUITestsLaunchTests.swift */,
 			);
 			path = quantaUITests;
+			sourceTree = "<group>";
+		};
+		B12CFFE52AFB9AD8004DB8FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B12CFFE62AFB9AE2004DB8FF /* Main.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12CFFE82AFB9AE2004DB8FF /* Main.xcdatamodeld in Sources */,
 				B12CFFBE2AFB9AD2004DB8FF /* ContentView.swift in Sources */,
 				B12CFFBC2AFB9AD2004DB8FF /* quantaApp.swift in Sources */,
 			);
@@ -582,6 +594,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B12CFFE62AFB9AE2004DB8FF /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B12CFFE72AFB9AE2004DB8FF /* Main.xcdatamodel */,
+			);
+			currentVersion = B12CFFE72AFB9AE2004DB8FF /* Main.xcdatamodel */;
+			name = Main.xcdatamodeld;
+			path = ../../../../../Desktop/Acme/Acme/Model/Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B12CFFB02AFB9AD2004DB8FF /* Project object */;
 }
